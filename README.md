@@ -7,5 +7,6 @@ Spark and its RDDs were developed in 2012 in response to limitations in the MapR
   - MapReduce programs read input data from disk,
   - map a function across the data,
   - reduce the results of the map,
-  - store reduction results on disk. 
+  - store reduction results on disk.
+    
 Spark's RDDs function as a working set for distributed programs that offers a (deliberately) restricted form of distributed shared memory.
