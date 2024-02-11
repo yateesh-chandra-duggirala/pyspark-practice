@@ -1,0 +1,40 @@
+Task to do :
+
+# Download Sample Data:
+	Download a sample dataset with multiple CSV files. For example, you can use the NASA Meteorite Landings dataset which contains multiple CSV files.
+
+# Explore the Data:
+	Examine the structure of the CSV files, understand the columns, data types, and any potential issues.
+
+# Set up PySpark:
+	Ensure that you have PySpark installed in your Python environment. You can install it using pip install pyspark.
+
+# Initialize PySpark Session:
+	Create a PySpark session to work with Spark.
+
+# Load CSV Files:
+	Read all the CSV files into a PySpark DataFrame. Handle the case where the files might have different schemas.
+
+# Data Cleaning and Transformation:
+	Inspect and clean the data. Handle missing values, data type issues, and any inconsistencies.
+Perform any necessary transformations based on the requirements (e.g., converting date strings to datetime objects).
+
+# Create a Perfect Data Frame:
+	Ensure that the data frame is well-structured, with appropriate column names, data types, and is ready for analysis.
+
+# Create and Configure a Spark SQL Table:
+	Use the DataFrame to create a temporary Spark SQL table for further querying. Configure the table properties like storage format, compression, etc.
+
+# Perform Basic Queries:
+	Run some basic Spark SQL queries on the table to verify that the data has been loaded successfully.
+
+# Write the Final DataFrame to Parquet or Another Storage Format:
+	Write the cleaned and transformed DataFrame into a more efficient storage format like Parquet.
+
+# Documentation:
+	Provide clear documentation in your script, commenting on each major step and explaining any decisions you made during data cleaning and transformation.
+
+# Submission:
+	Submit your Python script (.py file) along with any necessary instructions or documentation.
+
+This assignment is designed to reinforce your understanding of PySpark, data cleaning, and transformation techniques, as well as working with large datasets. Good luck!
