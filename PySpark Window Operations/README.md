@@ -12,4 +12,4 @@ Data : Data is actually prepared from a datasets repository. We have to create a
 ## Example 1 :
 - We first create a window by partitioning and ordering columns. 
 - In our DataFrame, we have store, product and sales information including quantity, price, revenue and date.
-- If we want to calculate cumulative sales of each product in each store seperately, we define our window as follows :
+- If we want to calculate cumulative sales of each product in each store seperately, we define our window as follows 
